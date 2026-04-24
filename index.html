@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusuma J - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+        </div>
+        <h2>Welcome</h2>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Kusuma J.</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div id="particles-js"></div>
+            
+            <div class="hero-content fade-in">
+                <h1>Hi, I'm <span class="highlight">Kusuma J</span></h1>
+                <h2><span class="typed-text"></span></h2>
+                <p>Passionate about building responsive and dynamic web applications.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="Kusuma_Resume.pdf" download class="btn secondary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image slide-in-right">
+                <img src="profile.jpg" alt="Kusuma J">
+            </div>
+            
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-up">
+                    <p>Hello! I am Kusuma J, a dedicated Bachelor of Computer Applications (BCA) student with a strong foundation in computer science and software development.</p>
+                    <p><strong>Career Objective:</strong> To leverage my educational background and technical skills in a challenging environment where I can contribute to innovative projects and continuously grow as a professional developer.</p>
+                    <p>I enjoy solving complex problems, learning new technologies, and building applications that provide great user experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container fade-in-up">
+                <div class="skill-card" data-color="#E34F26">
+                    <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-card" data-color="#1572B6">
+                    <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-card" data-color="#3776AB">
+                    <i class="fab fa-python skill-icon" style="color: #3776AB;"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card" data-color="#777BB4">
+                    <i class="fab fa-php skill-icon" style="color: #777BB4;"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-card" data-color="#4479A1">
+                    <i class="fas fa-database skill-icon" style="color: #4479A1;"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-card" data-color="#ffffff">
+                    <i class="fab fa-github skill-icon" style="color: #ffffff;"></i>
+                    <h3>GitHub</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Sample Projects</h2>
+            <div class="projects-container">
+                <div class="project-card fade-in-up">
+                    <div class="project-content">
+                        <h3>Student Management System</h3>
+                        <p>A web-based application to manage student records, track attendance, and handle course enrollments efficiently.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="project-content">
+                        <h3>E-Commerce Landing Page</h3>
+                        <p>A responsive landing page for a fictional e-commerce store, featuring product displays, a shopping cart UI concept, and smooth animations.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section bg-light">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline fade-in-up">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <h4 class="college-name">Vidya First Grade College, Tumkur</h4>
+                        <p class="timeline-date"><i class="far fa-calendar-alt"></i> 2023 - 2026</p>
+                        <p>Focusing on software engineering, database management, and web technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Pre-University Education (12th Grade)</h3>
+                        <h4 class="college-name">Renuka Vidya Peeta PU College, Tumkur</h4>
+                        <p class="timeline-date"><i class="far fa-calendar-alt"></i> 2021 - 2023</p>
+                        <p>Specialized in core subjects with strong academic performance.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>High School (10th Grade)</h3>
+                        <h4 class="college-name">Shree Lokamba High School</h4>
+                        <p class="timeline-date"><i class="far fa-calendar-alt"></i> 2020 - 2021</p>
+                        <p>Completed foundational studies with distinction.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container fade-in-up">
+                <div class="contact-left">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7760279763</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>kusuma.j@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tumkur, Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/kusuma-j-undefined-260b00401?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-btn"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <form id="contactForm" class="contact-form">
+                        <h3>Send me a message</h3>
+                        <div class="input-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                        <p id="formStatus" class="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kusuma J. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Libraries for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
